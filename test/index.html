@@ -1,0 +1,22 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="css/font-awesome.min.css" />
+		<link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+		<script src="js/imageShare.js"></script>
+		<script>
+			$(document).ready(function() {
+				console.log('document ready');
+				
+				$('img').imageShare({
+					shareText: 'Share this chart:'
+				});
+			});
+
+		</script>
+	</head>
+	<body>
+		<img class="one" src="img/indian-men-don-t-do-much-housework.jpg" />
+		<img class="two" src="img/women-began-leaving-the-workforce-in-2005.jpg" />
+	</body>
+</html>
